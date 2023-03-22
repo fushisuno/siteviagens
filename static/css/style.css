@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Menu */
+body{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: #000000;
+}
+header{
+    width: 100%;
+    background: no-repeat center/cover url(../img/holanda.jpg);
+    height: calc(100vh);
+}
+nav{
+    width: 100vw;
+    display: flex;
+}
+nav p{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto 50px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    cursor: pointer;
+    color: #e5e5e5;
+}
+
+.header_content{
+    color: #e5e5e5;
+    max-width: 480px;
+    margin: 150px auto;
+    text-align: center;
+}
+.header_content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
