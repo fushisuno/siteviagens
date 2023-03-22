@@ -1,61 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* Menu */
-body{
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    display: block;
-    color: #000000;
 }
-header{
-    width: 100%;
-    background: no-repeat center/cover url(../img/holanda.jpg);
-    height: calc(100vh);
-}
-nav{
-    width: 100vw;
-    display: flex;
-}
-nav p{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    letter-spacing: 5px;
-    font-size: 20px;
-}
-nav ul {
-    width: 80%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-nav ul li{
-    display: flex;
-    justify-content: space-between;
+
+ul {
     list-style: none;
-    margin: auto 50px;
-    font-size: 20px;
+    font-weight: bold;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-a:hover{
-    cursor: pointer;
-    color: #e5e5e5;
+/*Se quiser fazer Comentários CSS */
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1d61dd;
+    color: white;
 }
 
-.header_content{
-    color: #e5e5e5;
-    max-width: 480px;
+header {
+    background: no-repeat center/cover url("assets/tailandia.jpg");
+    height: calc(100vh - 100px);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 400px;
     margin: 150px auto;
     text-align: center;
 }
-.header_content h1{
+
+.header-content h1 {
     margin-bottom: 10px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
