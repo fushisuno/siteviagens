@@ -234,8 +234,11 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.contatos ul li{
+.contatos ul li a{
     display: flex;
+}
+.contatos a:hover{
+    color: #e4a691;
 }
 .contatos ul li p{
     margin: 3px;
