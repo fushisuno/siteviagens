@@ -24,9 +24,12 @@ button {
     padding: 10px 15px;
     border-radius: 8px;
     font-weight: bold;
+    font-family: "Poppins";
+    letter-spacing: .9px;
     border: 0;
     background: #1d61dd;
     color: white;
+    cursor: pointer;
 }
 
 header {
@@ -72,7 +75,7 @@ header nav p {
 }
 
 .pacotes {
-    background: #70ef96;
+    background: #f7efd8;
     padding: 15px;
 }
 
@@ -82,6 +85,7 @@ header nav p {
     max-width: 950px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .pacotes .card-image {
@@ -168,6 +172,7 @@ header nav p {
     max-width: 950px;
     justify-content: center;
     margin: auto;
+    margin-bottom: 8%;
 }
 
 .servicos .card {
@@ -195,7 +200,7 @@ header nav p {
 }
 
 .servicos .card p {
-    color: grey;
+    color: #273142;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -205,8 +210,36 @@ header nav p {
     text-align: center;
 }
 
-.contatos {
-    height: 250px;
-    background: red;
-
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #273142;
+    color: whitesmoke;
+}
+.contatos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #273142;
+    color: rgb(255, 255, 255, 0.88);
+    font-size: 0.8rem;
+}
+.contatos ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.contatos ul li{
+    display: flex;
+}
+.contatos ul li p{
+    margin: 3px;
+}
+.contatos p{
+    font-size: 0.7rem;
 }
